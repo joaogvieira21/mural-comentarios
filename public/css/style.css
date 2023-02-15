@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dangrek&family=Montserrat:wght@900&family=Open+Sans:wght@300;400&family=Oswald&family=Press+Start+2P&family=Quicksand:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,800;1,900&family=Roboto:ital,wght@1,500;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(179, 176, 176);
+    font-family: 'Raleway'
+}
+
+.bg-color {
+    background-color: white;
+    width: 70%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+h1, h2 {
+    padding: 30px 0;
+}
+
+.new-post {
+    width: 50%;
+    padding: 40px 0;
+    margin: 0 auto;
+}
+
+
+input::placeholder, textarea::placeholder {
+    padding-left: 5px;
+}
+
+.post {
+    background-color: rgb(179, 176, 176);
+}
+
+#posts::after {
+    content: ".";
+    color: white;
+}
